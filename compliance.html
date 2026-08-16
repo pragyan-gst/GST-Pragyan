@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GST compliance reference — due dates, late fee, interest | Pragyan</title>
+<meta name="description" content="A quick reference for GST due dates, late fee under Section 47, interest under Section 50, the Section 16(4) time limit and the main reversal rules, with a late fee and interest calculator.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='9' fill='%2300b67a'/><text x='16' y='23' font-size='19' text-anchor='middle' fill='white' font-family='sans-serif'>P</text></svg>">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><span class="mark">प</span> Pragyan</a>
+    <nav>
+      <a href="index.html#what">What it does</a>
+      <a href="index.html#parameters">Parameters</a>
+      <a href="index.html#how">How it works</a>
+      <a href="compliance.html" aria-current="page">GST reference</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<div class="hero" style="padding:56px 0 60px">
+  <div class="wrap">
+    <span class="eyebrow">Quick reference</span>
+    <h1 style="max-width:24ch">GST due dates, late fee and interest</h1>
+    <p class="lede">
+      The figures an officer or a taxpayer reaches for most often, in one place, with the
+      provision or notification each one rests on.
+    </p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+
+    <div class="note warn">
+      <p><strong>Verify before you rely on this.</strong> Due dates are extended by
+      notification more often than any other thing in GST, and rates and caps have changed
+      several times. Everything below is stated with the provision or notification it comes
+      from so you can check it. For any live case, confirm the position against
+      <a href="https://cbic-gst.gov.in" rel="noopener">cbic-gst.gov.in</a> and the
+      notifications in force for the period. This page is a reference, not advice.</p>
+    </div>
+
+    <div class="toc">
+      <strong>On this page</strong>
+      <ol>
+        <li><a href="#duedates">Due dates of the returns</a></li>
+        <li><a href="#latefee">Late fee under Section 47</a></li>
+        <li><a href="#annualfee">Late fee on the annual return</a></li>
+        <li><a href="#interest">Interest under Section 50</a></li>
+        <li><a href="#calc">Late fee and interest calculator</a></li>
+        <li><a href="#itc">Time limit for taking credit</a></li>
+        <li><a href="#reversal">The reversal rules</a></li>
+        <li><a href="#scrutiny">Scrutiny, and what follows it</a></li>
+      </ol>
+    </div>
+
+    <!-- ============================================================ due dates -->
+    <h2 id="duedates">1. Due dates of the returns</h2>
+    <p>Ordinary due dates, before any extension notified for a particular period.</p>
+
+    <div class="table-scroll">
+      <table>
+        <caption>Monthly and quarterly returns</caption>
+        <thead>
+          <tr><th>Return</th><th>Who files it</th><th>Due date</th><th>Provision</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>GSTR-1</strong></td><td>Monthly filer</td><td>11th of the following month</td><td>s.37, r.59</td></tr>
+          <tr><td><strong>GSTR-1</strong> (quarterly)</td><td>QRMP</td><td>13th of the month following the quarter</td><td>s.37, r.59</td></tr>
+          <tr><td><strong>IFF</strong></td><td>QRMP, optional, first two months</td><td>13th of the following month</td><td>r.59(2)</td></tr>
+          <tr><td><strong>GSTR-3B</strong></td><td>Monthly filer</td><td>20th of the following month</td><td>s.39, r.61</td></tr>
+          <tr><td><strong>GSTR-3B</strong> (quarterly)</td><td>QRMP — Category X states</td><td>22nd of the month following the quarter</td><td>r.61(1)(ii)</td></tr>
+          <tr><td><strong>GSTR-3B</strong> (quarterly)</td><td>QRMP — Category Y states</td><td>24th of the month following the quarter</td><td>r.61(1)(ii)</td></tr>
+          <tr><td><strong>PMT-06</strong></td><td>QRMP, first two months of the quarter</td><td>25th of the following month</td><td>r.61A</td></tr>
+          <tr><td><strong>CMP-08</strong></td><td>Composition</td><td>18th of the month following the quarter</td><td>r.62</td></tr>
+          <tr><td><strong>GSTR-5</strong></td><td>Non-resident taxable person</td><td>13th of the following month</td><td>s.39(5), r.63</td></tr>
+          <tr><td><strong>GSTR-5A</strong></td><td>OIDAR</td><td>20th of the following month</td><td>r.64</td></tr>
+          <tr><td><strong>GSTR-6</strong></td><td>Input Service Distributor</td><td>13th of the following month</td><td>s.39(4), r.65</td></tr>
+          <tr><td><strong>GSTR-7</strong></td><td>Deductor of tax at source</td><td>10th of the following month</td><td>s.39(3), r.66</td></tr>
+          <tr><td><strong>GSTR-8</strong></td><td>E-commerce operator collecting TCS</td><td>10th of the following month</td><td>s.52(4), r.67</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="table-scroll" style="margin-top:22px">
+      <table>
+        <caption>Annual and final returns</caption>
+        <thead>
+          <tr><th>Return</th><th>Who files it</th><th>Due date</th><th>Provision</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>GSTR-9</strong></td><td>Registered person; optional below the notified turnover</td><td>31 December following the financial year</td><td>s.44, r.80</td></tr>
+          <tr><td><strong>GSTR-9C</strong></td><td>Above the notified turnover, self-certified</td><td>Along with GSTR-9</td><td>s.44, r.80(3)</td></tr>
+          <tr><td><strong>GSTR-4</strong></td><td>Composition, annual</td><td>30 June following the financial year</td><td>r.62</td></tr>
+          <tr><td><strong>GSTR-10</strong></td><td>Final return after cancellation</td><td>Within 3 months of cancellation or of the order</td><td>s.45, r.81</td></tr>
+          <tr><td><strong>ITC-04</strong></td><td>Goods sent to a job worker</td><td>Half-yearly or annual, by turnover</td><td>r.45(3)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note info">
+      <p><strong>QRMP state groups.</strong> Category X — Chhattisgarh, Madhya Pradesh,
+      Gujarat, Maharashtra, Karnataka, Goa, Kerala, Tamil Nadu, Telangana, Andhra Pradesh,
+      Daman &amp; Diu and Dadra &amp; Nagar Haveli, Puducherry, Andaman &amp; Nicobar,
+      Lakshadweep. Category Y — the remaining States and Union territories.</p>
+    </div>
+
+    <div class="note">
+      <p><strong>Extensions are common and they matter.</strong> A due date extended by
+      notification and not accounted for makes a return look late when it was not, and
+      charges interest and late fee on days that were never delay. Two examples: the April
+      2022 GSTR-3B was moved to <strong>24 May 2022</strong> by Notification No.
+      05/2022-Central Tax after the portal failed, and the September 2022 GSTR-3B to
+      <strong>21 October 2022</strong> by Notification No. 21/2022-Central Tax. Always check
+      the period you are working on.</p>
+    </div>
+
+    <!-- ============================================================ late fee -->
+    <h2 id="latefee">2. Late fee under Section 47</h2>
+    <p>Section 47(1) provides for one hundred rupees per day per Act, subject to five
+    thousand rupees. The daily rate was reduced by Notification No. 76/2018-Central Tax, and
+    the ceiling was replaced with turnover-based caps by Notification No. 19/2021-Central Tax
+    for tax periods from <strong>June 2021</strong> onwards.</p>
+
+    <div class="table-scroll">
+      <table>
+        <caption>GSTR-3B and GSTR-1 — daily rate</caption>
+        <thead>
+          <tr><th>Return</th><th>Per Act</th><th class="num">CGST + SGST together</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Return with tax payable</td><td>Rs. 25 per day</td><td class="num">Rs. 50 per day</td></tr>
+          <tr><td>NIL return</td><td>Rs. 10 per day</td><td class="num">Rs. 20 per day</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="table-scroll" style="margin-top:22px">
+      <table>
+        <caption>Maximum late fee — tax periods from June 2021 (Notification No. 19/2021-CT)</caption>
+        <thead>
+          <tr><th>Aggregate turnover in the preceding financial year</th>
+              <th class="num">Cap per Act</th><th class="num">CGST + SGST together</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>NIL return</td><td class="num">Rs. 250</td><td class="num">Rs. 500</td></tr>
+          <tr><td>Up to Rs. 1.5 crore</td><td class="num">Rs. 1,000</td><td class="num">Rs. 2,000</td></tr>
+          <tr><td>Above Rs. 1.5 crore and up to Rs. 5 crore</td><td class="num">Rs. 2,500</td><td class="num">Rs. 5,000</td></tr>
+          <tr><td>Above Rs. 5 crore</td><td class="num">Rs. 5,000</td><td class="num">Rs. 10,000</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note">
+      <p><strong>The slabs run from the tax period, not the due date.</strong> Notification
+      No. 19/2021-CT applies “for the tax periods June, 2021 onwards”. The May 2021 return
+      falls due on 20 June 2021, but it is a <em>May</em> period — so the older Rs. 5,000 per
+      Act ceiling applies to it, not the turnover cap. Getting this the wrong way round
+      understates the fee on every pre-June-2021 period.</p>
+    </div>
+
+    <!-- ============================================================ annual fee -->
+    <h2 id="annualfee">3. Late fee on the annual return</h2>
+    <p>Section 47(2) is a separate provision with a separate ceiling: one hundred rupees per
+    day per Act, capped at <strong>a quarter per cent of turnover in the State or Union
+    territory</strong> — a percentage, not a flat figure. Notification No. 07/2023-Central
+    Tax reduced both the rate and the cap by turnover slab, for FY 2022-23 onwards.</p>
+
+    <div class="table-scroll">
+      <table>
+        <caption>GSTR-9 — FY 2022-23 onwards (Notification No. 07/2023-CT)</caption>
+        <thead>
+          <tr><th>Aggregate turnover</th><th class="num">Per day (both Acts)</th>
+              <th class="num">Cap (both Acts)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Up to Rs. 5 crore</td><td class="num">Rs. 50</td><td class="num">0.04% of turnover in the State</td></tr>
+          <tr><td>Above Rs. 5 crore and up to Rs. 20 crore</td><td class="num">Rs. 100</td><td class="num">0.04% of turnover in the State</td></tr>
+          <tr><td>Above Rs. 20 crore</td><td class="num">Rs. 200</td><td class="num">0.5% of turnover in the State</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note info">
+      <p><strong>When is the annual return complete?</strong> Circular No. 246/03/2025-GST
+      dated 30 January 2025 clarifies that where FORM GSTR-9C is required, the annual return
+      is not complete until <em>both</em> GSTR-9 and GSTR-9C have been furnished. The late
+      fee therefore runs continuously from the due date to the <strong>later</strong> of the
+      two filing dates — it is not two separate fees.</p>
+      <p>Notification No. 08/2025-Central Tax dated 23 January 2025 waived the excess late
+      fee for financial years up to FY 2022-23 where GSTR-9C was furnished on or before
+      31 March 2025. Check whether that waiver covers the year in hand before pressing the
+      fee.</p>
+    </div>
+
+    <!-- ============================================================ interest -->
+    <h2 id="interest">4. Interest under Section 50</h2>
+
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Situation</th><th class="num">Rate</th><th>Provision</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Delayed payment of tax</td><td class="num">18% per annum</td><td>s.50(1), Notification No. 13/2017-CT</td></tr>
+          <tr><td>Input tax credit wrongly availed <em>and utilised</em></td><td class="num">18% per annum</td><td>s.50(3) as amended, r.88B(3)</td></tr>
+          <tr><td>Undue or excess reduction of output tax liability</td><td class="num">24% per annum</td><td>s.50(3) (pre-amendment position)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note">
+      <p><strong>Interest runs on the cash portion only.</strong> Under the proviso to
+      Section 50(1) read with Rule 88B(1), where the return for a period is furnished after
+      the due date, interest is payable on that portion of the tax paid by debiting the
+      electronic <em>cash</em> ledger — not on the amount discharged through credit already
+      lying in the ledger. This single point is the most common error in an interest
+      computation.</p>
+      <p>And under Rule 88B(3), credit wrongly availed attracts interest only where it has
+      been <em>utilised</em>; credit taken and reversed without utilisation does not.</p>
+    </div>
+
+    <!-- ============================================================ calculator -->
+    <h2 id="calc">5. Late fee and interest calculator</h2>
+    <p>A rough working for a delayed GSTR-3B. It runs entirely in your browser — nothing is
+    sent anywhere.</p>
+
+    <div class="card" style="margin-top:20px">
+      <div class="calc">
+        <div class="field">
+          <label for="due">Due date of the return</label>
+          <input type="date" id="due" value="2024-05-20">
+        </div>
+        <div class="field">
+          <label for="filed">Date the return was furnished</label>
+          <input type="date" id="filed" value="2024-07-05">
+        </div>
+        <div class="field">
+          <label for="cash">Tax discharged in cash (Rs.)</label>
+          <input type="number" id="cash" min="0" step="1" value="150000">
+        </div>
+        <div class="field">
+          <label for="rate">Interest rate (% per annum)</label>
+          <input type="number" id="rate" min="0" step="0.1" value="18">
+        </div>
+        <div class="field">
+          <label for="turnover">Aggregate turnover, preceding year</label>
+          <select id="turnover">
+            <option value="nil">NIL return</option>
+            <option value="1.5">Up to Rs. 1.5 crore</option>
+            <option value="5" selected>Rs. 1.5 crore to Rs. 5 crore</option>
+            <option value="big">Above Rs. 5 crore</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="period">Tax period</label>
+          <select id="period">
+            <option value="new" selected>June 2021 or later</option>
+            <option value="old">Before June 2021</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="result" style="margin-top:22px" aria-live="polite">
+        <div class="lbl">Days of delay</div>
+        <div class="big" id="outDays">—</div>
+        <div class="brk" id="outBreak">Enter the dates above.</div>
+      </div>
+
+      <div class="grid g2" style="margin-top:18px">
+        <div class="card" style="box-shadow:none">
+          <div class="lbl" style="font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700">Interest under Section 50(1)</div>
+          <div style="font-size:1.55rem;font-weight:700;color:var(--navy)" id="outInterest">Rs. 0</div>
+          <p style="margin-top:6px">On the cash portion, for the days of delay.</p>
+        </div>
+        <div class="card" style="box-shadow:none">
+          <div class="lbl" style="font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700">Late fee under Section 47(1)</div>
+          <div style="font-size:1.55rem;font-weight:700;color:var(--navy)" id="outFee">Rs. 0</div>
+          <p style="margin-top:6px" id="outFeeBasis">CGST and SGST together.</p>
+        </div>
+      </div>
+
+      <div class="note" style="margin-bottom:0">
+        <p><strong>An estimate, and nothing more.</strong> It assumes an ordinary due date
+        with no notified extension, a full month's delay counted in days, and interest on
+        the whole of the cash amount for the whole period. It does not account for
+        instalments, part payments, amnesty schemes, or interest already declared at Table
+        5.1 of the return. Check the actual position before any demand.</p>
+      </div>
+    </div>
+
+    <!-- ============================================================ itc time limit -->
+    <h2 id="itc">6. Time limit for taking credit</h2>
+    <p>Section 16(4) sets the last date for taking input tax credit on an invoice or debit
+    note.</p>
+
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Financial year</th><th>Last date</th><th>Note</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>FY 2017-18 to FY 2020-21</td><td>30 November 2021</td>
+              <td>Section 16(5), inserted by the Finance (No. 2) Act, 2024 — credit taken in
+                  any GSTR-3B furnished up to that date is admissible</td></tr>
+          <tr><td>FY 2021-22</td><td>30 November 2022</td>
+              <td>The Finance Act 2022 substitution took effect on 1 October 2022, before
+                  the unamended date of 20 October 2022 had expired</td></tr>
+          <tr><td>FY 2022-23 onwards</td><td>30 November following the financial year</td>
+              <td>Or the date of furnishing the annual return, whichever is earlier</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note info">
+      <p><strong>Sections 16(5) and 16(6) are a real defence.</strong> For the four years to
+      FY 2020-21 a demand resting on time-bar alone will not hold, and Section 16(6) restores
+      credit for a registered person whose registration was cancelled and later revoked.
+      Both were inserted with retrospective effect. Consider them before raising any
+      Section 16(4) demand.</p>
+    </div>
+
+    <h3>The other conditions in Section 16(2)</h3>
+    <ul>
+      <li><strong>(a)</strong> possession of a tax invoice or debit note</li>
+      <li><strong>(aa)</strong> the details have been furnished by the supplier and appear in
+          the recipient's GSTR-2B — the condition that makes GSTR-2B, and not GSTR-2A, the
+          statement to test credit against from 1 January 2022</li>
+      <li><strong>(b)</strong> the goods or services have been received</li>
+      <li><strong>(c)</strong> the tax has actually been paid to the Government</li>
+      <li><strong>(d)</strong> the return under Section 39 has been furnished</li>
+    </ul>
+
+    <!-- ============================================================ reversal -->
+    <h2 id="reversal">7. The reversal rules</h2>
+
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Rule</th><th>What it requires</th><th>Reported at</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Rule 37</strong></td>
+              <td>Reverse credit where the supplier has not been paid within 180 days of the
+                  invoice date. Credit may be re-availed on payment, with no time limit.</td>
+              <td>GSTR-3B Table 4(B)(2)</td></tr>
+          <tr><td><strong>Rule 38</strong></td>
+              <td>A banking company or financial institution opting for the 50% route
+                  reverses half of the eligible credit.</td>
+              <td>Table 4(B)(1)</td></tr>
+          <tr><td><strong>Rule 42</strong></td>
+              <td>Apportion credit on inputs and input services between taxable and exempt
+                  supplies, in the ratio of exempt to total turnover.</td>
+              <td>Table 4(B)(1)</td></tr>
+          <tr><td><strong>Rule 43</strong></td>
+              <td>The same apportionment for capital goods, spread over sixty months.</td>
+              <td>Table 4(B)(1)</td></tr>
+          <tr><td><strong>Section 17(5)</strong></td>
+              <td>Blocked credit — motor vehicles below the threshold, food and beverages,
+                  club membership, works contract for immovable property, goods lost or
+                  given as free samples, and the rest of the list.</td>
+              <td>Table 4(B)(1) / 4(D)</td></tr>
+          <tr><td><strong>Rule 86B</strong></td>
+              <td>Where taxable supply other than exempt and zero-rated exceeds Rs. 50 lakh
+                  in a month, at least 1% of the output tax liability must be paid in cash —
+                  subject to the exceptions in the proviso.</td>
+              <td>GSTR-3B Table 6.1</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note">
+      <p><strong>Rule 42 is a computation, not a ratio applied to everything.</strong> It
+      requires credit to be segregated first — exclusively for non-business use, exclusively
+      for exempt supply, blocked under Section 17(5), and exclusively for taxable supply —
+      before the common credit is arrived at and apportioned. Applying the exempt-turnover
+      ratio to the whole of Table 4(A) overstates the reversal wherever credit is
+      exclusively attributable to taxable supplies. It is a useful risk indicator; it is not
+      the statutory working.</p>
+    </div>
+
+    <!-- ============================================================ scrutiny -->
+    <h2 id="scrutiny">8. Scrutiny, and what follows it</h2>
+
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Stage</th><th>Form</th><th>Time</th><th>Provision</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Discrepancy intimated to the registered person</td><td>ASMT-10</td>
+              <td>—</td><td>s.61(1), r.99(1)</td></tr>
+          <tr><td>Explanation by the registered person</td><td>ASMT-11</td>
+              <td>Within 30 days, or such further period as permitted</td><td>s.61(2), r.99(2)</td></tr>
+          <tr><td>Explanation found acceptable — no further action</td><td>ASMT-12</td>
+              <td>—</td><td>s.61(2), r.99(3)</td></tr>
+          <tr><td>No explanation, or one not found acceptable</td><td>—</td>
+              <td>Proceed under s.65, 66, 67, or determine tax under s.73 / 74 / 74A</td>
+              <td>s.61(3)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note info">
+      <p><strong>Which determination provision applies.</strong> Section 73 (no fraud) and
+      Section 74 (fraud, wilful misstatement or suppression) govern up to FY 2023-24. From
+      <strong>FY 2024-25</strong> onwards, Section 74A replaces both with a common
+      limitation and a graded penalty. Getting the demarcation wrong is a common and
+      fatal drafting error.</p>
+      <p>There is <strong>no materiality threshold</strong> in Section 61 or Rule 99. Every
+      discrepancy is to be reported; what is worth pursuing is for the proper officer to
+      decide.</p>
+    </div>
+
+    <div class="note warn">
+      <p>This page is a reference compiled for convenience. It is not legal advice, it is not
+      exhaustive, and the law changes. Confirm every position against the Act, the Rules and
+      the notifications in force for the period before you act on it. Corrections are welcome
+      at <a href="mailto:pragyan.gst@gmail.com">pragyan.gst@gmail.com</a>.</p>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="brand" style="color:#fff" href="index.html"><span class="mark">प</span> Pragyan</a>
+        <p style="margin-top:12px;max-width:44ch">
+          A desktop tool for GST return scrutiny. Built by a departmental officer, for the
+          work as it is actually done.
+        </p>
+      </div>
+      <div>
+        <h4>The tool</h4>
+        <ul>
+          <li><a href="index.html#what">What it does</a></li>
+          <li><a href="index.html#parameters">Parameters</a></li>
+          <li><a href="index.html#how">How it works</a></li>
+          <li><a href="index.html#download">Getting Pragyan</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>More</h4>
+        <ul>
+          <li><a href="compliance.html">GST compliance reference</a></li>
+          <li><a href="privacy.html">Privacy policy</a></li>
+          <li><a href="mailto:pragyan.gst@gmail.com">pragyan.gst@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="rule">
+      <p>Pragyan is an independent working aid. It is not published by, endorsed by or
+      affiliated with the Central Board of Indirect Taxes and Customs, the GST Network or
+      any Government of India body.</p>
+      <p style="margin:0">© 2026 Pragyan. Reference drafts only — verify before issue.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Late fee and interest calculator. Runs in the browser; nothing is transmitted.
+(function () {
+  var ids = ["due", "filed", "cash", "rate", "turnover", "period"];
+  var el = {};
+  ids.forEach(function (i) { el[i] = document.getElementById(i); });
+  var outDays = document.getElementById("outDays");
+  var outBreak = document.getElementById("outBreak");
+  var outInterest = document.getElementById("outInterest");
+  var outFee = document.getElementById("outFee");
+  var outFeeBasis = document.getElementById("outFeeBasis");
+
+  function inr(n) {
+    // Indian grouping: last three digits, then pairs.
+    var s = Math.round(n).toString();
+    var last3 = s.slice(-3), rest = s.slice(0, -3);
+    if (rest) last3 = "," + last3;
+    return "Rs. " + rest.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + last3;
+  }
+
+  function calc() {
+    var due = new Date(el.due.value), filed = new Date(el.filed.value);
+    if (isNaN(due) || isNaN(filed)) {
+      outDays.textContent = "—";
+      outBreak.textContent = "Enter both dates.";
+      return;
+    }
+    var days = Math.max(0, Math.round((filed - due) / 86400000));
+    outDays.textContent = days + (days === 1 ? " day" : " days");
+
+    if (days === 0) {
+      outBreak.textContent = "Furnished on or before the due date — no interest, no late fee.";
+      outInterest.textContent = "Rs. 0";
+      outFee.textContent = "Rs. 0";
+      outFeeBasis.textContent = "Nothing is payable.";
+      return;
+    }
+
+    // Interest on the cash portion, simple, 365-day year.
+    var cash = Math.max(0, parseFloat(el.cash.value) || 0);
+    var rate = Math.max(0, parseFloat(el.rate.value) || 0);
+    var interest = cash * (rate / 100) * (days / 365);
+    outInterest.textContent = inr(interest);
+
+    // Late fee, both Acts together.
+    var isNil = el.turnover.value === "nil";
+    var perDay = isNil ? 20 : 50;
+    var slabbed = el.period.value === "new";
+    var cap, basis;
+    if (isNil) {
+      cap = slabbed ? 500 : 10000;
+      basis = slabbed
+        ? "NIL return: Rs. 20 per day, capped at Rs. 500."
+        : "NIL return, period before June 2021: Rs. 20 per day, capped at Rs. 10,000.";
+    } else if (!slabbed) {
+      cap = 10000;
+      basis = "Period before June 2021: Rs. 50 per day, capped at Rs. 10,000 "
+            + "(Rs. 5,000 per Act).";
+    } else if (el.turnover.value === "1.5") {
+      cap = 2000; basis = "Turnover up to Rs. 1.5 crore: Rs. 50 per day, capped at Rs. 2,000.";
+    } else if (el.turnover.value === "5") {
+      cap = 5000; basis = "Turnover Rs. 1.5\u20135 crore: Rs. 50 per day, capped at Rs. 5,000.";
+    } else {
+      cap = 10000; basis = "Turnover above Rs. 5 crore: Rs. 50 per day, capped at Rs. 10,000.";
+    }
+    var raw = perDay * days;
+    var fee = Math.min(cap, raw);
+    outFee.textContent = inr(fee);
+    outFeeBasis.textContent = basis + (raw > cap
+      ? " At " + days + " days the fee would be " + inr(raw) + "; the cap applies."
+      : "");
+    outBreak.textContent = "From " + el.due.value + " to " + el.filed.value
+      + ". Interest is charged on the cash portion only.";
+  }
+
+  ids.forEach(function (i) {
+    el[i].addEventListener("input", calc);
+    el[i].addEventListener("change", calc);
+  });
+  calc();
+})();
+</script>
+
+</body>
+</html>

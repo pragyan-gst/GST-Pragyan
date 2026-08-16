@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pragyan — GST return scrutiny for the departmental officer</title>
+<meta name="description" content="Pragyan is a desktop tool for GST return scrutiny. It merges the returns downloaded from the GST portal, applies thirty scrutiny parameters and prepares a reference draft for FORM GST ASMT-10.">
+<meta property="og:title" content="Pragyan — GST return scrutiny">
+<meta property="og:description" content="Merge the returns, apply thirty scrutiny parameters, and prepare a reference draft for FORM GST ASMT-10.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='9' fill='%2300b67a'/><text x='16' y='23' font-size='19' text-anchor='middle' fill='white' font-family='sans-serif'>P</text></svg>">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><span class="mark">प</span> Pragyan</a>
+    <nav>
+      <a href="#what">What it does</a>
+      <a href="#parameters">Parameters</a>
+      <a href="#how">How it works</a>
+      <a href="compliance.html">GST reference</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">A working aid for GST return scrutiny</span>
+    <h1>The returns, read and reconciled.</h1>
+    <p class="lede">
+      Pragyan reads the returns you download from the GST portal, puts them into one
+      workbook, applies thirty scrutiny parameters, and prepares a reference draft for
+      FORM GST ASMT-10 — with every figure traceable to the table of the return it came
+      from.
+    </p>
+    <a class="btn btn-primary" href="#contact">Get in touch</a>
+    <a class="btn btn-glass" href="compliance.html">GST compliance reference</a>
+    <div class="hero-badges">
+      <span class="chip chip-teal">Runs on your own computer</span>
+      <span class="chip chip-glass">No data leaves the machine</span>
+      <span class="chip chip-amber">Reference drafts only</span>
+    </div>
+  </div>
+</div>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="grid g4">
+      <div class="stat"><div class="n">30</div><div class="l">scrutiny parameters, one worksheet each</div></div>
+      <div class="stat"><div class="n">29</div><div class="l">worked out by the tool; only one needs your figure</div></div>
+      <div class="stat"><div class="n">20</div><div class="l">statistical checks over the e-Way Bills</div></div>
+      <div class="stat"><div class="n">560+</div><div class="l">regression tests behind every release</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="what">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>What it does</h2>
+      <p>Four things, each of which normally costs an afternoon.</p>
+    </div>
+    <div class="grid g2">
+      <div class="card">
+        <div class="ico">▤</div>
+        <h3>Merge the returns</h3>
+        <p>GSTR-1, 3B, 2A, 2B, 9, 9C, IFF and the e-Way Bill report, for as many periods as
+        you have, stacked into one workbook. Columns are matched by their heading rather
+        than their position, so a change in the portal's export does not silently read the
+        wrong column. Every row carries the file it came from.</p>
+      </div>
+      <div class="card">
+        <div class="ico">⚑</div>
+        <h3>Apply the scrutiny parameters</h3>
+        <p>Thirty parameters drawn from the CBIC scrutiny module, each on its own worksheet
+        with every column headed by the source it reads — <em>3B 3.1(a) IGST</em>,
+        <em>GSTR-2B Available ITC CGST</em> — so a figure can be checked without a key. Each
+        tax head is tested on its own; an excess in one head is not cancelled by a shortfall
+        in another.</p>
+      </div>
+      <div class="card">
+        <div class="ico">⇄</div>
+        <h3>Match the inward supplies</h3>
+        <p>GSTR-2B against your purchase register, invoice by invoice, with Rule 37 ageing on
+        invoices unpaid beyond one hundred and eighty days and a supplier-wise view of credit
+        from cancelled registrations and non-filers.</p>
+      </div>
+      <div class="card">
+        <div class="ico">◈</div>
+        <h3>Draft the ASMT-10</h3>
+        <p>A reference draft in Word, with the statutory paragraph, the amount head by head,
+        and the month-wise working behind it. Findings are separated into what can be
+        demanded, what needs verification first, and what is reported for information —
+        because they are not the same thing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="honest">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>What it will not do</h2>
+      <p>A tool that overstates what it knows is worse than no tool.</p>
+    </div>
+    <div class="grid g3">
+      <div class="card">
+        <h3>It will not issue a notice</h3>
+        <p>What Pragyan produces is a <strong>reference draft</strong>. It carries no file
+        number, no letterhead and no signature. Those belong to your office's own record,
+        and the draft goes on to it before anything is issued.</p>
+      </div>
+      <div class="card">
+        <h3>It will not report nil as a clean chit</h3>
+        <p>Where a statement was never imported, the parameter that reads it says
+        <strong>“not tested”</strong> and is excluded from every total. A nil figure that
+        only means “we could not look” is the most dangerous output a tool like this can
+        produce.</p>
+      </div>
+      <div class="card">
+        <h3>It will not call a risk a demand</h3>
+        <p>A supplier's registration having been cancelled does not establish that the
+        recipient took the credit. Such populations are marked <strong>verification
+        required</strong>, kept out of the demand, and put to the taxpayer as a question.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="parameters">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>The parameters</h2>
+      <p>Each gets its own worksheet, with the months, the source columns and the working
+      that produced the figure. Twenty-nine are worked out by the tool.</p>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>#</th><th>Parameter</th><th>Provision</th><th>Source</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Outward liability — GSTR-3B against GSTR-1</td><td>s.39 r/w s.59</td><td>GSTR-1, GSTR-3B</td></tr>
+          <tr><td>2(i)–(iii)</td><td>Reverse charge — liability, credit and cash payment</td><td>s.9(3), s.9(4)</td><td>GSTR-3B, GSTR-2A</td></tr>
+          <tr><td>3</td><td>ISD credit against GSTR-2A</td><td>s.20</td><td>GSTR-2A, GSTR-3B</td></tr>
+          <tr><td>4</td><td>Input tax credit against the governing statement</td><td>s.16(2)(aa)</td><td>GSTR-2B / 2A</td></tr>
+          <tr><td>5</td><td>Turnover against the value liable to TDS/TCS</td><td>s.51, s.52</td><td>GSTR-2A, GSTR-3B</td></tr>
+          <tr><td>6</td><td>Outward supply against the e-Way Bill portal</td><td>r.138</td><td>e-Way Bill report</td></tr>
+          <tr><td>7</td><td>Credit on documents after a supplier's cancellation</td><td>s.16(2)(a)</td><td>GSTR-2A / 2B</td></tr>
+          <tr><td>8</td><td>Credit from suppliers who had not furnished GSTR-3B</td><td>s.16(2)(c)</td><td>GSTR-2A / 2B</td></tr>
+          <tr><td>9</td><td>Credit taken beyond the Section 16(4) time limit</td><td>s.16(4), s.16(5)</td><td>Document dates, filing dates</td></tr>
+          <tr><td>10</td><td>Import credit against the bill of entry data</td><td>s.16, Customs</td><td>GSTR-2A / 2B</td></tr>
+          <tr><td>11</td><td>Reversal on exempt supplies</td><td>r.42, r.43</td><td>GSTR-3B</td></tr>
+          <tr><td>12</td><td>Interest on delayed payment</td><td>s.50(1), r.88B</td><td>Due dates, filing dates</td></tr>
+          <tr><td>13</td><td>Late fee on delayed returns</td><td>s.47(1)</td><td>Due dates, filing dates</td></tr>
+          <tr><td>A2–A18</td><td>Seventeen further checks — GSTR-2B marked unavailable, blocked
+              credit, Rule 86B, credit-note place of supply, annual-return late fee, GSTR-9
+              Tables 6A/8D, GSTR-9C reconciliation, TDS and TCS credit, zero-rated supply,
+              GSTR-1 late fee and more</td><td>various</td><td>various</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note">
+      <p><strong>Only one parameter asks you for a figure</strong> — blocked credit under
+      Section 17(5) — because nothing in a return tells you whether a motor vehicle was used
+      privately. Everything else is derived from the returns themselves, with the documents
+      and dates set out beside the figure.</p>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="how">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>How it works</h2>
+      <p>Four steps. Nothing is written until every return has been read.</p>
+    </div>
+    <div class="grid g4">
+      <div class="card">
+        <div class="ico">1</div><h3>Load</h3>
+        <p>Drop in the portal downloads — ZIP, XLSX, XLS, CSV or PDF. Pragyan works out what
+        each file is. Anything it could not read is listed, so nothing is built on a file
+        that failed silently.</p>
+      </div>
+      <div class="card">
+        <div class="ico">2</div><h3>Build</h3>
+        <p>A monthly summary of every figure the parameters rest on, then one worksheet per
+        parameter with live formulas into it. Correct a filing date there and everything
+        moves with it.</p>
+      </div>
+      <div class="card">
+        <div class="ico">3</div><h3>Check</h3>
+        <p>Each parameter states its provision, what it compares, and any caveat that has to
+        be considered before it is pressed. The workbook flags what it could not test as well
+        as what it found.</p>
+      </div>
+      <div class="card">
+        <div class="ico">4</div><h3>Draft</h3>
+        <p>A Word reference for ASMT-10 in three sections — prima facie discrepancy,
+        verification required, and information — with the month-wise working under each
+        issue.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="privacy-summary">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Where your data goes</h2>
+      <p>Nowhere.</p>
+    </div>
+    <div class="grid g3">
+      <div class="card">
+        <h3>It runs on your machine</h3>
+        <p>Pragyan is a desktop application. The returns you load, the workbooks it writes
+        and the drafts it produces stay on the computer you run it on.</p>
+      </div>
+      <div class="card">
+        <h3>No account, no upload</h3>
+        <p>There is nothing to sign in to. The application does not transmit returns,
+        GSTINs, taxpayer names or any figure to us or to anyone else.</p>
+      </div>
+      <div class="card">
+        <h3>This website collects nothing</h3>
+        <p>No cookies, no analytics, no tracking scripts, no embedded fonts fetched from a
+        third party. Read the <a href="privacy.html">privacy policy</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="download">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Getting Pragyan</h2>
+    </div>
+    <div class="card">
+      <p><span class="chip chip-amber">Not yet published</span></p>
+      <h3 style="margin-top:16px">The application is not available for download yet.</h3>
+      <p>Pragyan is being prepared for publication. When the download is live, the link will
+      appear here and on this page only. Until then, write to the address below if you would
+      like to be told when it is published, or if you would like to discuss the tool.</p>
+      <p style="margin-top:18px">
+        <a class="btn btn-outline" aria-disabled="true" href="#download">Download — coming soon</a>
+        <a class="btn btn-primary" href="#contact">Tell me when it is ready</a>
+      </p>
+    </div>
+    <div class="note info">
+      <p><strong>A word of caution about anything you download elsewhere.</strong> Pragyan
+      is published only from this site and from the address below. If you are offered a copy
+      from any other source, do not run it against real return data.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Contact</h2>
+      <p>Questions, corrections, and reports of a wrong figure are all welcome — the last
+      most of all.</p>
+    </div>
+    <div class="grid g2">
+      <div class="card">
+        <div class="ico">✉</div>
+        <h3>Email</h3>
+        <p style="font-size:1.15rem;margin-bottom:10px">
+          <a href="mailto:pragyan.gst@gmail.com">pragyan.gst@gmail.com</a>
+        </p>
+        <p>Please allow a few working days for a reply.</p>
+      </div>
+      <div class="card">
+        <div class="ico">⚠</div>
+        <h3>If you are reporting a wrong figure</h3>
+        <p>It helps enormously to know the parameter number, the tax period, the figure
+        Pragyan produced and the figure you expected.
+        <strong>Please do not attach real returns, GSTINs or taxpayer names</strong> — a
+        description of the discrepancy is enough to find almost any defect.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="note warn">
+      <p><strong>Pragyan is a working aid, not an authority.</strong> Everything it produces
+      is a reference draft. Every figure must be verified against the return, and every legal
+      position against the Act, the Rules and the notifications in force, before it is put to
+      a taxpayer. The proper officer's satisfaction under Section 61 cannot be delegated to a
+      computation, and nothing on this site or in the application is legal advice.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="brand" style="color:#fff" href="index.html"><span class="mark">प</span> Pragyan</a>
+        <p style="margin-top:12px;max-width:44ch">
+          A desktop tool for GST return scrutiny. Built by a departmental officer, for the
+          work as it is actually done.
+        </p>
+      </div>
+      <div>
+        <h4>The tool</h4>
+        <ul>
+          <li><a href="#what">What it does</a></li>
+          <li><a href="#parameters">Parameters</a></li>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#download">Getting Pragyan</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>More</h4>
+        <ul>
+          <li><a href="compliance.html">GST compliance reference</a></li>
+          <li><a href="privacy.html">Privacy policy</a></li>
+          <li><a href="mailto:pragyan.gst@gmail.com">pragyan.gst@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="rule">
+      <p>Pragyan is an independent working aid. It is not published by, endorsed by or
+      affiliated with the Central Board of Indirect Taxes and Customs, the GST Network or
+      any Government of India body. “GST”, “GSTN” and the names of the statutory forms are
+      used descriptively.</p>
+      <p style="margin:0">© 2026 Pragyan. Reference drafts only — verify before issue.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
