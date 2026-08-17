@@ -1,12 +1,13 @@
 # GST Pragyan — website
 
-Three static pages. No framework, no build step, no dependencies.
+Three static pages. No framework, no build step, no dependencies. 228 KB in total.
 
-    index.html        the app, what it does, what it will not do, contact
-    compliance.html   twelve GST charts + a late fee & interest calculator
+    index.html        who it's for, what the charts cover, the desktop tool, contact
+    compliance.html   11 chart sections + 3 calculators, including the full late fee and
+                      interest history since 01.07.2017 and the notice/order limitation dates
     privacy.html      privacy policy
     style.css         one stylesheet for all three
-    assets/           logo, wordmark and social preview (120 KB in total)
+    assets/           logo, wordmark and social preview (109 KB)
     robots.txt        allows indexing
     .nojekyll         tells GitHub Pages not to run Jekyll over the files
 
@@ -17,11 +18,24 @@ Three static pages. No framework, no build step, no dependencies.
 ## Editing
 
 - **Email** — search for `pragyan.gst@gmail.com` in all three pages.
-- **Download link** — `index.html`, the section with `id="download"`. Replace the
-  disabled button with a real link when the app is published.
+- **Download link** — `index.html`, the section with `id="download"`. Replace the two
+  buttons with a real link when the app is published.
 - **Colours** — the `:root` block at the top of `style.css`.
-- **Dates** — `privacy.html` carries a "Last updated" line. Add one to
-  `compliance.html` too whenever you review the statutory figures.
+- **Statutory figures** — `compliance.html`. The hero carries a review date; change it
+  whenever you check the figures, and change the "Last updated" line in `privacy.html`
+  whenever that policy changes.
+- **Limitation dates** — the `YEARS` object in the script at the foot of
+  `compliance.html` drives the third calculator. Each year has the annual return due date
+  and the s.73 / s.74 notice and order dates. Add a year by copying an entry.
+
+## What to review, and when
+
+The charts are only as good as their last review. Two things change often:
+
+- **Due dates** are extended by notification, sometimes at a few days' notice.
+- **Limitation dates for FY 2018-19 and 2019-20** rest on Notification No. 56/2023-CT,
+  which is under challenge in several High Courts. If it is struck down those two rows
+  change, and the page says so — keep that caveat until the position settles.
 
 ## Logo assets
 
