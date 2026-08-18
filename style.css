@@ -1,4 +1,4 @@
-/* GST Pragyan — 2026 visual system
+/* GST Pragyan - 2026 visual system
    Human, practical, data-first. No framework required. */
 :root{
   --ink:#102338; --ink-2:#536678; --muted:#7f91a0; --paper:#fff; --bg:#f3f6f5;
@@ -49,3 +49,8 @@ footer.site{background:#071d31;color:#8fa9b8;padding:58px 0 28px;font-size:.88re
 @media(max-width:1050px){.nav nav a:not(.nav-cta){display:none}.hero-grid,.tool-split{grid-template-columns:1fr}.hero-art{order:-1;justify-items:start}.product-window{max-width:650px}.task-grid{grid-template-columns:repeat(3,1fr)}.workflow{grid-template-columns:repeat(3,1fr)}.flow:nth-child(3){border-right:0}.flow:nth-child(4),.flow:nth-child(5){border-top:1px solid var(--line)}.flow:after{display:none}.g4{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:760px){.wrap{padding:0 18px}.nav{height:66px}.brand img{height:36px}.nav nav{gap:3px}.nav .nav-cta{padding:8px 10px;font-size:.78rem}.hero{padding:56px 0}.hero h1{font-size:clamp(2.35rem,12vw,3.6rem)}.hero-grid{gap:35px}.metric-row{grid-template-columns:1fr 1fr}.metric:last-child{grid-column:1/-1}.task-grid,.chart-grid,.g2,.g3,.regimes{grid-template-columns:1fr}.workflow{grid-template-columns:1fr}.flow{border-right:0!important;border-bottom:1px solid var(--line)}.flow:last-child{border-bottom:0}.steps{grid-template-columns:1fr 1fr}.calc{grid-template-columns:1fr}.calc-out{grid-template-columns:1fr}.deadline-head{display:block}.deadline-head p{margin-top:12px}.g4{grid-template-columns:1fr 1fr}footer.site .cols{grid-template-columns:1fr}.product-window{transform:none}.vchart{gap:6px}.hbar{grid-template-columns:76px 1fr 46px}}
 @media(max-width:450px){.g4{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.hero-actions .btn{width:100%}}
+
+/* v10.7 polish */
+footer.site .brand{display:block;margin-bottom:8px}footer.site .brand img{width:280px;height:auto;max-width:100%}.feature-band{background:linear-gradient(180deg,#f7fbfa 0%,#eef5f2 100%);border-top:1px solid var(--line-2);border-bottom:1px solid var(--line-2)}.feature-grid .feature-card{height:100%;background:rgba(255,255,255,.92);box-shadow:0 10px 28px rgba(16,35,56,.05)}.feature-card h3{margin-top:0}.feature-card p{margin-bottom:0}.task{min-height:170px}.section-head p{max-width:68ch}.chart-card{box-shadow:0 10px 30px rgba(16,35,56,.05)}.tool-panel{background:linear-gradient(145deg,#08243c,#0f4767 55%,#0a6a57)}
+@media(max-width:1050px){footer.site .brand img{width:245px}.task{min-height:155px}}
+@media(max-width:760px){footer.site .brand img{width:220px}.feature-grid{grid-template-columns:1fr}.task{min-height:auto}}
